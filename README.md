@@ -8,7 +8,7 @@
 ## Usage
 ``` bash
 # install
-npm install i18n-json
+npm install json-i18n-tool
 
 # generate translated json file
 node index.js --src=... --lang=... --dst=...
