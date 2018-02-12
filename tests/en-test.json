@@ -1,0 +1,12 @@
+{
+  "class": "Class 2, grade 3",
+  "students": {
+    "sophie": {
+      "interest": [
+        "programming",
+        "music"
+      ],
+      "note": "Technology changes the world"
+    }
+  }
+}

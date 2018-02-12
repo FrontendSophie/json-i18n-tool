@@ -1,0 +1,30 @@
+{
+  "name": "i18n-json",
+  "version": "1.0.0",
+  "description": "a json i18n compiler",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FrontendSophie/json-i18n.git"
+  },
+  "keywords": [
+    "i18n",
+    "json"
+  ],
+  "author": "sophie",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FrontendSophie/json-i18n/issues"
+  },
+  "homepage": "https://github.com/FrontendSophie/json-i18n#readme",
+  "bin": {
+    "i18n-json": "./lib/translate.js"
+  },
+  "dependencies": {
+    "minimist": "^1.2.0",
+    "request": "^2.83.0"
+  }
+}
