@@ -23,4 +23,15 @@ describe('json-i18n-tool', function () {
             expect(enTestContent).to.be.equal('{"class": "Class 2, grade 3","students": {"sophie": {"interest": ["programming","music"],"note": "Technology changes the world"}}}');
         });
     });
+
+    it("should do nothing for not enough parameters", function (done) {
+        const testPromise = new Promise(function (resolve, reject) {
+            translator.translate('./test/test.json');
+            done();
+        });
+        testPromise.then(function () {
+            const enTestFile = fs.existsSync('./test/en-test.json');
+            expect(enTestFile).to.not.be.ok;
+        });
+    });
 });
